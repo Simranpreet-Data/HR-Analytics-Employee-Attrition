@@ -109,8 +109,9 @@ An interactive Excel dashboard was created to provide a high-level overview of e
 
 - Attrition by Department
 - Attrition by Job Role
-- Attrition by Age Group
 - Attrition by Overtime
+- Attrition by Age Group
+- Attrition by Work-Life Balance
 
 **Dashboard Features**
 
