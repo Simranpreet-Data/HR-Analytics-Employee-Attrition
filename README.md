@@ -147,7 +147,7 @@ An interactive Excel dashboard was created to provide a high-level overview of e
 * Laboratory Technicians experience the highest attrition among job roles.
 * Employees aged **26–35** have the highest attrition.
 * Low-income employees experience the highest attrition.
-* Employees with **0–1 years** of tenure leave the company most frequently.
+* Employees with **0–2 years** of tenure leave the company most frequently.
 * Employees working overtime have significantly higher attrition.
 
 ---
@@ -156,11 +156,11 @@ An interactive Excel dashboard was created to provide a high-level overview of e
 
 **Visuals**
 
-* Attrition by Education Field
+* Education Field Attrition
 * Attrition by Work-Life Balance
 * Attrition by Job Satisfaction
-* Attrition by Distance from Home
-* Attrition by Years Since Last Promotion Group
+* Distance from Home Attrition
+* Years Since Last Promotion Group
 * Attrition by Marital Status
 
 **Executive Insights**
@@ -180,7 +180,7 @@ An interactive Excel dashboard was created to provide a high-level overview of e
 * Laboratory Technicians experience the highest attrition among all job roles.
 * Employees aged **26–35** have the highest attrition.
 * Employees with lower monthly incomes experience significantly higher attrition.
-* Employees with **0–1 years** of tenure leave the company most frequently.
+* Employees with **0–2 years** of tenure leave the company most frequently.
 * Employees working overtime have higher attrition.
 * Employees from the **Life Sciences** and **Medical** education fields have the highest attrition.
 * Employees with a **Work-Life Balance rating of 3** have the highest attrition.
@@ -216,7 +216,7 @@ HR-Analytics-Employee-Attrition/
 ├── SQL/
 │   ├── 01_Data_Import_and_Cleaning.sql
 │   ├── 02_Data_Preparation.sql
-│   ├── 03_SQL_Business_Analysis.sql
+│   ├── 03_SQL_Analysis.sql
 │   ├── 04_SQL_Views.sql
 │   ├── 05_Stored_Procedure.sql
 │   ├── 06_Advanced_SQL.sql
