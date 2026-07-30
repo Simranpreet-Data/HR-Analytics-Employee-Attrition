@@ -103,6 +103,7 @@ An interactive Excel dashboard was created to provide a high-level overview of e
 - Attrition Rate
 - Average Age
 - Average Monthly Income
+- Average Years Since Last Promotion
 
 **Visuals**
 
