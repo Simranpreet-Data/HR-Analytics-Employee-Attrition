@@ -2,45 +2,42 @@
 
 ## 📌 Project Overview
 
-This is an end-to-end **HR Analytics** project built using **MySQL, Microsoft Excel, and Power BI**. The objective is to analyze employee attrition patterns, identify the key drivers of employee turnover, and provide actionable business recommendations through interactive dashboards. The project demonstrates the complete analytics workflow, from SQL data preparation and business analysis to dashboard development for executive decision-making.
+This is an end-to-end Employee Attrition Analytics project built using **MySQL, Microsoft Excel, and Power BI**. The project demonstrates the complete analytics workflow, from data cleaning and SQL analysis to dashboard development in both Excel and Power BI. The objective is to analyze employee attrition patterns, identify the key drivers of employee turnover, and provide actionable business recommendations to improve employee retention.
 
 ---
 
-# 🎯 Business Problem
+## 🎯 Business Problem
 
-Employee attrition is one of the biggest challenges faced by organizations because losing experienced employees increases recruitment costs, affects productivity, and reduces overall organizational performance. HR departments need reliable insights into employee turnover patterns to identify high-risk employee groups and develop effective retention strategies.
-
-This project analyzes employee demographics, job-related factors, compensation, and workplace satisfaction to uncover the primary drivers of attrition and support data-driven HR decisions.
+Employee attrition is a major challenge for organizations because losing experienced employees directly impacts productivity, increases recruitment costs, and affects overall business performance. This project analyzes employee demographics, job-related factors, workplace satisfaction, and compensation to identify high-risk employee groups, understand attrition patterns, and support data-driven HR decision-making.
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
-- Analyze employee attrition patterns.
-- Identify departments and job roles with the highest attrition.
-- Measure key HR metrics and workforce trends.
-- Analyze employee demographics and workplace factors.
-- Build interactive Excel and Power BI dashboards.
-- Generate actionable business recommendations to improve employee retention.
+* Analyze employee attrition patterns.
+* Identify high-risk employee groups.
+* Measure employee attrition and key HR metrics.
+* Build interactive Excel and Power BI dashboards.
+* Generate actionable business recommendations.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
-| **MySQL** | Data Import, Data Cleaning, Data Preparation, Business Analysis |
-| **Microsoft Excel** | Data Validation and Interactive Dashboard |
-| **Power BI** | Interactive Dashboard and Data Visualization |
-| **Git & GitHub** | Version Control and Portfolio |
+| **SQL (MySQL)** | Data import, data cleaning, data preparation, and business analysis |
+| **Microsoft Excel** | Data validation, interactive dashboard, KPI reporting |
+| **Power BI** | Interactive dashboards and data visualization |
+| **Git & GitHub** | Version control and project portfolio |
 
 ---
 
-# 📂 Dataset Information
+## 📂 Dataset Information
 
 **Dataset:** IBM HR Analytics Employee Attrition Dataset
 
-The dataset includes employee information such as:
+The dataset contains employee information including:
 
 - Employee Demographics
 - Department
@@ -50,8 +47,8 @@ The dataset includes employee information such as:
 - Marital Status
 - Education Field
 - Monthly Income
-- Years at Company
 - Total Working Years
+- Years at Company
 - Distance from Home
 - Overtime
 - Job Satisfaction
@@ -62,113 +59,186 @@ The dataset includes employee information such as:
 
 ---
 
-# 📈 KPI Metrics
+## 🔄 Project Workflow
 
-The dashboards include the following key performance indicators:
+```text
+Raw Dataset
+      ↓
+SQL Data Import & Cleaning
+      ↓
+SQL Data Preparation
+      ↓
+SQL Business Analysis
+      ↓
+Excel Validation
+      ↓
+Power BI Dashboard
+      ↓
+Business Insights
+      ↓
+Business Recommendations
+```
+
+---
+
+## 💾 SQL Work Completed
+
+* Data Import
+* Data Cleaning
+* Data Preparation
+* SQL Business Analysis
+* SQL Views
+* Stored Procedures
+* Advanced SQL
+* Final HR Report
+
+### 📊 Microsoft Excel Dashboard
+
+An interactive Excel dashboard was created to provide a high-level overview of employee attrition. The dashboard uses Pivot Tables, Pivot Charts, and KPI cards to summarize workforce metrics and highlight important employee attrition trends.
+
+**KPI Cards**
 
 - Total Employees
 - Employees Left
 - Attrition Rate
-- Average Income
 - Average Age
-- Average Experience
+- Average Monthly Income
 
----
-
-# 📊 Dashboard Overview
-
-The project contains two interactive Power BI dashboards designed for HR executives and business stakeholders.
-
----
-
-# 📊 Dashboard 1 — HR Executive Dashboard
-
-### KPIs
-
-- Total Employees
-- Employees Left
-- Attrition Rate
-- Average Income
-- Average Age
-- Average Experience
-
-### Visualizations
+**Visuals**
 
 - Attrition by Department
 - Attrition by Job Role
 - Attrition by Age Group
-- Attrition by Tenure Group
-- Attrition by Salary Group
 - Attrition by Overtime
 
-### Executive Insights
+**Dashboard Features**
 
-- Research & Development has the highest employee attrition.
-- Laboratory Technicians experience the highest attrition among job roles.
-- Employees aged **26–35** have the highest attrition.
-- Low-income employees have the highest attrition.
-- Employees with **0–2 years** of tenure leave the company most frequently.
-- Employees working overtime have significantly higher attrition.
+- KPI Cards
+- Pivot Charts
+- Key Insights Section
 
 ---
 
-# 📊 Dashboard 2 — Employee Insights Dashboard
+## 📈 Power BI Dashboard
 
-### Visualizations
+### Page 1 — HR Executive Dashboard
 
-- Attrition by Education Field
-- Attrition by Work-Life Balance
-- Attrition by Job Satisfaction
-- Attrition by Distance from Home
-- Attrition by Years Since Last Promotion Group
-- Attrition by Marital Status
+**KPIs**
 
-### Executive Insights
+* Total Employees
+* Employees Left
+* Attrition Rate
+* Average Income
+* Average Age
+* Average Experience
 
-- Employees from the **Life Sciences** and **Medical** education fields experience the highest attrition.
-- Employees with a **Work-Life Balance rating of 3** have the highest attrition.
-- Employees with **Job Satisfaction Level 3** record the highest attrition.
-- Employees living **0–5 miles** from the workplace have the highest attrition.
-- Recently promoted employees account for the highest attrition.
-- Single employees have the highest attrition among all marital status groups.
+**Visuals**
 
----
+* Attrition by Department
+* Attrition by Job Role
+* Attrition by Age Group
+* Attrition by Tenure Group
+* Attrition by Salary Group
+* Attrition by Overtime
 
-# 💡 Key Business Insights
+**Executive Insights**
 
-The analysis revealed several important workforce trends:
-
-- Research & Development records the highest employee attrition.
-- Laboratory Technicians experience the highest turnover among all job roles.
-- Employees aged **26–35** are the most likely to leave the organization.
-- Employees earning lower monthly incomes experience significantly higher attrition.
-- Most employee turnover occurs during the first **0–2 years** of employment.
-- Overtime is strongly associated with higher employee attrition.
-- Employees in the **Life Sciences** and **Medical** education fields experience the highest attrition.
-- Employees with moderate work-life balance and job satisfaction ratings show higher turnover than other groups.
-- Single employees represent the largest proportion of employee attrition.
-- Employees living closer to the workplace unexpectedly experience higher attrition.
-- Recently promoted employees contribute significantly to employee turnover.
+* Research & Development has the highest employee attrition.
+* Laboratory Technicians experience the highest attrition among job roles.
+* Employees aged **26–35** have the highest attrition.
+* Low-income employees experience the highest attrition.
+* Employees with **0–1 years** of tenure leave the company most frequently.
+* Employees working overtime have significantly higher attrition.
 
 ---
 
-# 🚀 Business Recommendations
+### Page 2 — Employee Insights Dashboard
 
-Based on the analysis, the following actions are recommended:
+**Visuals**
 
-- Reduce overtime by improving workforce planning and resource allocation.
-- Develop targeted retention programs for employees during their first two years of employment.
-- Review compensation strategies for lower-income employee groups to improve retention.
-- Create career development and mentorship programs for Laboratory Technicians and other high-turnover job roles.
-- Strengthen employee engagement initiatives within the Research & Development department.
-- Conduct employee satisfaction surveys to better understand work-life balance and job satisfaction concerns.
-- Enhance career progression planning and promotion transparency to improve employee retention.
-- Provide personalized retention initiatives for single employees and other high-risk workforce segments.
-- Monitor employee attrition using interactive HR dashboards to support proactive decision-making.
+* Attrition by Education Field
+* Attrition by Work-Life Balance
+* Attrition by Job Satisfaction
+* Attrition by Distance from Home
+* Attrition by Years Since Last Promotion Group
+* Attrition by Marital Status
+
+**Executive Insights**
+
+* Employees from the **Life Sciences** and **Medical** education fields experience the highest attrition.
+* Employees with a **Work-Life Balance rating of 3** have the highest attrition.
+* Job Satisfaction **Level 3** records the highest employee attrition.
+* Employees living within **0–5 miles** from the workplace have the highest attrition.
+* Recently promoted employees account for the highest attrition.
+* Single employees have the highest attrition among all marital status groups.
 
 ---
 
-# 🎯 Skills Demonstrated
+## 💡 Key Insights
+
+* Research & Development has the highest employee attrition.
+* Laboratory Technicians experience the highest attrition among all job roles.
+* Employees aged **26–35** have the highest attrition.
+* Employees with lower monthly incomes experience significantly higher attrition.
+* Employees with **0–1 years** of tenure leave the company most frequently.
+* Employees working overtime have higher attrition.
+* Employees from the **Life Sciences** and **Medical** education fields have the highest attrition.
+* Employees with a **Work-Life Balance rating of 3** have the highest attrition.
+* Job Satisfaction **Level 3** records the highest attrition.
+* Employees living within **0–5 miles** from the workplace have the highest attrition.
+* Recently promoted employees account for the highest attrition.
+* Single employees have the highest attrition among all marital status groups.
+
+---
+
+## 🚀 Business Recommendations
+
+* Reduce overtime through improved workforce planning and resource allocation.
+* Develop targeted retention programs for employees during their first two years with the company.
+* Review compensation strategies for lower-income employee groups.
+* Create career development and mentorship programs for high-turnover job roles.
+* Strengthen employee engagement initiatives within the Research & Development department.
+* Improve work-life balance by introducing flexible work policies where applicable.
+* Provide clear promotion pathways and career growth opportunities.
+* Enhance employee recognition and engagement programs for single and early-career employees.
+* Monitor employee attrition using interactive dashboards to support proactive HR decision-making.
+
+---
+
+## 📁 Project Structure
+
+```text
+HR-Analytics-Employee-Attrition/
+│
+├── Dataset/
+│   └── IBM_HR_Analytics_Dataset.csv
+│
+├── SQL/
+│   ├── 01_Data_Import_and_Cleaning.sql
+│   ├── 02_Data_Preparation.sql
+│   ├── 03_SQL_Business_Analysis.sql
+│   ├── 04_SQL_Views.sql
+│   ├── 05_Stored_Procedure.sql
+│   ├── 06_Advanced_SQL.sql
+│   └── 07_Final_Report.sql
+│
+├── Excel/
+│   └── HR_Analytics.xlsx
+│
+├── Power BI/
+│   └── Employee_Attrition_Analytics.pbix
+│
+├── Images/
+│   ├── Excel_HR_Analytics_Dashboard.png
+│   ├── PowerBI_HR Executive_Dashboard.png
+│   └── PowerBI_Employee_Insights_Dashboard.png
+│
+└── README.md
+```
+
+---
+
+## 🧠 Skills Demonstrated
 
 - SQL
 - SQL Data Cleaning
@@ -177,7 +247,7 @@ Based on the analysis, the following actions are recommended:
 - SQL Views
 - Stored Procedures
 - Advanced SQL
-- Window Functions
+- Business Analysis
 - Microsoft Excel
 - Pivot Tables
 - Pivot Charts
@@ -186,77 +256,32 @@ Based on the analysis, the following actions are recommended:
 - DAX Measures
 - Power BI Dashboard Development
 - Data Visualization
-- Workforce Analytics
-- Business Intelligence
 - Business Storytelling
 
 ---
 
-# 📁 Repository Structure
+## 📷 Dashboard Preview
 
-```text
-HR-Analytics-Employee-Attrition/
-│
-├── Dataset/
-│   └── IBM HR Analytics Employee Attrition Dataset.csv
-│
-├── SQL/
-│   ├── 01_Data_Import_and_Cleaning.sql
-│   ├── 02_Data_Preparation.sql
-│   ├── 03_SQL_Business_Analysis.sql
-│   ├── 04_SQL_Views.sql
-│   ├── 05_Stored_Procedures.sql
-│   ├── 06_Advanced_SQL.sql
-│   └── 07_Final_HR_Report.sql
-│
-├── Excel/
-│   └── HR Analytics Dashboard.xlsx
-│
-├── Power BI/
-│   └── Employee Attrition Analytics.pbix
-│
-├── Images/
-│   ├── HR Executive Dashboard.png
-│   └── Employee Insights Dashboard.png
-│
-└── README.md
-```
+### Microsoft Excel Dashboard
+
+![Excel Dashboard](Images/Excel_HR_Analytics_Dashboard.png)
+
+### Power BI HR Executive Dashboard
+
+![Executive Dashboard](Images/PowerBI_HR_Executive_Dashboard.png)
+
+### Power BI Employee Insights Dashboard
+
+![Employee Insights Dashboard](Images/PowerBI_Employee_Insights_Dashboard.png)
 
 ---
 
-# 📷 Dashboard Preview
+## 📌 Conclusion
 
-## HR Executive Dashboard
-
-> *Add the screenshot of your HR Executive Dashboard here after uploading it to your GitHub repository.*
-
----
-
-## Employee Insights Dashboard
-
-> *Add the screenshot of your Employee Insights Dashboard here after uploading it to your GitHub repository.*
-
----
-
-# 📌 Project Outcome
-
-This project demonstrates a complete end-to-end HR analytics workflow, from SQL data preparation and business analysis to interactive dashboard development in Microsoft Excel and Power BI. The analysis identifies the primary drivers of employee attrition, highlights workforce trends, and provides actionable recommendations that help HR teams improve employee retention, optimize workforce planning, and support strategic business decision-making.
-
----
-
-# 🔮 Future Improvements
-
-Potential enhancements for this project include:
-
-- Develop a machine learning model to predict employee attrition.
-- Build an automated ETL pipeline for HR data refresh.
-- Connect Power BI directly to a live SQL database.
-- Add predictive workforce analytics and employee risk scoring.
-- Expand the dashboard with recruitment, promotion, and performance analytics.
-- Implement real-time HR reporting for executive decision-making.
+This project demonstrates an end-to-end HR analytics workflow, from raw data preparation in SQL to interactive dashboard development in Microsoft Excel and Power BI. The analysis highlights the key drivers of employee attrition, identifies high-risk employee groups, and provides actionable recommendations to improve employee retention, optimize workforce planning, and support data-driven HR decision-making.
 
 ---
 
 ### 👤 Created by Simranpreet Kaur
 
-**Aspiring Data Analyst | SQL | Microsoft Excel | Power BI | Business Intelligence**
+Aspiring Data Analyst | SQL | Excel | Power BI | Business Intelligence
